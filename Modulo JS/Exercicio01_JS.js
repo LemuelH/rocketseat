@@ -7,18 +7,17 @@
 // * entre 60 - 69   -   D
 // * menor que 60    -   F
 
-let nota = 60;
+let nota = 85.3;
 
 if (nota > 90) {
   var notaCarac = "A";
 } else if (nota >= 80 && nota <= 89) {
   var notaCarac = "B";
-} else if (nota >= 80 && nota <= 89) {
+} else if (nota >= 70 && nota <= 79) {
   var notaCarac = "C";
-} else if (nota >= 80 && nota <= 89) {
+} else if (nota >= 80 && nota <= 69) {
   var notaCarac = "D";
-} else if (nota >= 80 && nota <= 89) {
-  var notaCarac = "E";
+} else if (nota >= 80 && nota <= 9) {
 } else {
   var notaCarac = "F";
 }
