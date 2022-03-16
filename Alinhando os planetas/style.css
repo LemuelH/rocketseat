@@ -1,9 +1,27 @@
+/* HEADER */
+
 * {
   margin: 0;
 }
 
 header {
   background-color: #ead4ff;
+}
+
+* a {
+  text-decoration: none;
+}
+.contato {
+  display: flex;
+  background-color: blueviolet;
+  border-radius: 4px;
+  align-items: center;
+  padding: 10px;
+  gap: 0.4rem;
+}
+.contato img {
+  width: 1rem;
+  height: 1rem;
 }
 
 nav {
@@ -20,8 +38,53 @@ ul {
   align-items: center;
 }
 
-li:last-child {
-  background-color: blueviolet;
-  border-radius: 4px;
+/* FIM DO HEADER */
+
+/* --------------------------------------------- */
+
+/* MAIN */
+.container {
   padding: 10px;
+  display: flex;
+  gap: 1rem;
+  height: 85vh;
+}
+
+.container aside {
+  flex-basis: 30%;
+  background-color: rgb(205, 232, 255);
+}
+.container main {
+  flex-grow: 1;
+  background-color: bisque;
+}
+img {
+  width: 20%;
+  border-radius: 8px;
+  height: auto;
+}
+img:hover {
+  width: 100%;
+}
+
+.container main .fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 0.8rem;
+  background-color: red;
+}
+
+/* FIM DO MAIN */
+/* FOOTER */
+footer {
+  display: flex;
+  margin-top: auto;
+  background-color: aqua;
+  color: white;
+  height: 9rem;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
